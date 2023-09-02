@@ -4,7 +4,7 @@ namespace ImageApp;
 require 'vendor/autoload.php';
 
 if (count($argv) < 4) {
-    echo "Usage: php script.php source_image_path destination_image_path transformation1 transformation2 ...\n";
+    echo "Usage: php index.php source_image_path destination_image_path transformation1 transformation2 ...\n";
     exit(1);
 }
 
