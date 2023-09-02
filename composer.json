@@ -1,0 +1,16 @@
+{
+    "name": "root/image",
+"autoload": {
+    "psr-4": {
+         "ImageApp\\": "src/"
+    }
+},
+    "authors": [
+        {
+            "name": "Alex"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
