@@ -1,15 +1,10 @@
 <?php
 namespace ImageApp;
-require __DIR__ . '/src/ImageTransform.php';
-require __DIR__ . '/src/NoiseFilterTransform.php';
-require __DIR__ . '/src/ScaleTransform.php';
-require __DIR__ . '/src/RotateTransform.php';
-require __DIR__ . '/src/FilterTransform.php';
 
 require 'vendor/autoload.php'; 
 
 if (count($argv) < 4) {
-    echo "Usage: php script.php source_image_path destination_image_path transformation1 transformation2 ...\n";
+    echo "Usage: php index.php source_image_path destination_image_path transformation1 transformation2 ...\n";
     exit(1);
 }
 
